@@ -1,9 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>my profile</title>
 </head>
 <body>
-<p>test</p>  
-</body>  
+    <header>
+        <h1>Yuuto Itou's Profile</h1>
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="#profile">profile</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <h2 id="profile">my profile</h2>
+            <div class="profile_box">
+                <div class="profile_img">
+                    <img src="image/profile_img.jpg">
+                </div>
+                <div class="profile_contents">
+                    <p>はじめまして！伊藤優人と申します。<br>
+                    前職は14年間小売業を経営する企業にて部門長をしていました。<br>
+                    報告書・定型業務・数値検証などの作業を効率化したいと思い<br>
+                    独学でVBAを勉強してからプログラミングに強く興味を持ち<br>
+                    エンジニアへ転職を目指して独学をしつつ職業訓練に通っています<br>
+                    <br>
+                    特にWebエンジニアに興味があり、保守性や可用性の高い開発が<br>
+                    出来るように目指すことは勿論ですが、激しく移り変わる技術に<br>
+                    キャッチアップしてデファクトスタンダードになる前に自分自身でも<br>
+                    業務に生かせるかを考えれるエンジニアを目標に努力したいと思います。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2 id="skills">skills</h2>
+        <div class="skills">
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill_star">
+                    <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                    </p>
+                </div>
+                <div class="skill_message">
+                    <p>基本的なタグの使用は一通り抑えています。phpで開発の際にformタグ<br>
+                    Vue.jsで開発の際にはtableタグをよく使いました。</p>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill_star">
+                     <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                    </p>
+                </div>
+                <div class="skill_message">
+                    <p>デザインデータからコーディング・レシポンシブ対応も可能です。<br>
+                    LP制作を過去に経験しています。</p>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>php</h3>
+                </div>
+                <div class="skill_star">
+                     <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                        <span class="star_off"></span>
+                    </p>
+                </div>
+                <div class="skill_message">
+                    <p>掲示板アプリの開発にしようしました。正規表現、ファイルサイズチェック、エスケープ等<br>
+                    最低限のセキュリティ知識やGET、POST、SESSIONは使用出来ます。
+                    </p>
+                </div>
+            </div>    
+        </div>
+        <div class="skills">    
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill_star">
+                     <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                        <span class="star_off"></span>
+                    </p>
+                 </div>
+                <div class="skill_message">
+                    <p class="message_row">JavaScript単体で記述した事は少ないですが基本的な知識は学習しました。<br>
+                    Web制作では基本的にJ-Queryを使用しています。
+                    </p>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>Vue.js</h3>
+                </div>
+                <div class="skill_star">
+                     <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                        <span class="star_off"></span>
+                    </p>
+                </div>
+                <div class="skill_message">
+                    <p class="message_row">最近学習し始めました。開発経験はphp掲示板アプリのSPA化をする際にformの個別管理<br>
+                    非同期通信に使用しました。<br>
+                    ゲームアプリ開発では状態遷移を管理しやすくする為に使用しました。</p>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">
+                    <i class="fas fa-code" style="color: green;font-size: 20px;line-height: 28px;"></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill_star">
+                     <p>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_on"></span>
+                        <span class="star_off"></span>
+                        <span class="star_off"></span>
+                    </p>
+                </div>
+                <div class="skill_message">
+                    <p class="message_row">php開発にMySQLを使用しました。職業訓練でも1カ月強ほど学習し内部結合、サブクエリ<br>
+                    case文、Viewなど多少複雑なSQL文も作成可能です。<br>
+                    php掲示板のDBを第3正規形にして実践に近い学習もしました。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill_all">
+        <table>
+            <caption>学習スキル一覧</caption>
+            <tr>
+                <th>学習言語</th>
+                <td>HTML,CSS,Sass,PHP,JavaScript,SQL</td>
+            </tr>
+            <tr>
+                <th>DB</th>
+                <td>MySQL,SQLserver</td>
+            </tr>
+            <tr>
+                <th>フレームワーク</th>
+                <td>Vue.js,Larabel(学習中)</td>
+            </tr>
+            <tr>
+                <th>使用ツール</th>
+                <td>GitHub,Cloud9</td>
+            </tr>
+        </table>
+        <table>
+            <caption>保有資格</caption>
+            <tr><td>ITパスポート試験 合格</td></tr>
+            <tr><td>Webクリエイター能力認定試験 合否待ち</td></tr>
+            <tr><td>基本情報技術者試験　午前免除試験 合格</td></tr>
+            <tr><td>基本情報技術者試験 4月受験予定</td></tr>
+        </table>
+    </div>
+    <div class="container">
+    <h2 style="margin-top: 80px;" id="portfolio">portfolio</h2>
+    <div class="portfolio_box">
+        <div class="portfolio_top">
+            <div class="portfolio_message">
+                <h3>PHPを使ったTwitterクローン</h3>
+                <div class="portfolio_links">
+                    <p>公開ページ:<a href="http://econalife.xsrv.jp/">エコナ掲示板</a></p>
+                    <p>ソースコード:<a href="https://github.com/yuutoitou/php_board">GitHub</a></p>
+                </div>
+            <div class="portfolio_language">
+                <h4>使用言語</h4>
+                <p>HTML,CSS,php,JavaScript,MySQL</p>
+                <p>開発期間：1月半</p>
+            </div>
+            </div>    
+        </div>
+        <div class="portfolio_contants">
+            <div class="portfolio_img"><img src="image/econa_php.jpg"></div>
+            <table>
+                <caption>実装機能</caption>
+                <tr><td>・会員登録</td><td>・ログイン</td></tr>
+                <tr><td>・ログアウト</td><td>・コメント機能</td></tr>
+                <tr><td>・テキスト投稿</td><td>・画像投稿</td></tr>
+                <tr><td>・投稿編集機能</td><td>・投稿削除機能</td></tr>
+                <tr><td>・コメント機能</td><td>・パスワード変更</td></tr>
+                <tr><td>・Twitte風いいねボタン</td><td>・プロフィール機能</td></tr>
+                <tr><td>・メールアドレス変更</td><td>・ユーザー名変更</td></tr>
+                <tr><td>・投稿一覧表示</td><td>・投稿個別表示</td>
+                <tr><td rowspan="2">・パスワードリマインダー</td></tr>
+            </table>
+        </div>
+        <div class="portfolio_comment">
+            <p>フレームワークを使用せずに0から学習する為に開発しました。<br>
+            躓く事も多くありましたが、サーバーとDBの接続や値の取り込み<br>
+            基本的なセキュリティ知識、GET、POST、SESSIONの使い分けの学習が出来ました。<br>
+            独学で進める内に、検索能力や自己解決能力の向上にも繋がりました。
+            </p>
+        </div>
+    </div>    
+    <div class="portfolio_box">
+        <div class="portfolio_top">
+            <div class="portfolio_message">
+                <h3>PHP&Vue.jsを使ったSPA掲示板アプリ</h3>
+                <div class="portfolio_links">
+                    <p>公開ページ:<a href="https://www.econa-life.com">エコナ掲示板SPA</a></p>
+                    <p>ソースコード:<a href="https://github.com/yuutoitou/Vue_PHP_board">GitHub</a></p>
+                </div>
+                <div class="portfolio_language">
+                    <h4>使用言語</h4>
+                    <p>HTML,CSS,php,Vue.js,MySQL</p>
+                    <p>開発期間:3週間</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio_contants">    
+        <div class="portfolio_img"><img src="image/econa_vue.jpg"></div>
+        <div class="portfolio_message2">
+            <table>
+                <caption>実装機能(上記差分)</caption>
+                <tr>
+                    <td>・SPA</td><td>・非同期通信</td><td>・DB第3正規形</td>
+                </tr>
+            </table>
+            <p>前回制作の掲示板アプリの使用感を改善する過程でSPAで制作しすべて非同期通信で<br>
+            処理する事によってUX向上を意識して制作しました。<br>
+            phpのソースコードを流用する際に纏めて記述出来る箇所を修正しデータの整合性を取る為に<br>
+            DBを第3正規形にして導出項目を排除しました。</p>
+        </div>
+        </div>
+    </div>
+    <div class="portfolio_box">
+        <div class="portfolio_top">
+            <div class="portfolio_message">
+                <h3>Vue.jsを使ったRPG風のゲーム</h3>
+                <div class="portfolio_links">
+                    <p>公開ページ:<a href="https://www.econa-life.com/game/game.html">Vue.js_Game</a></p>
+                    <p>ソースコード:<a href="https://github.com/yuutoitou/Vue_game">GitHub</a></p>
+                </div>
+                <div class="portfolio_language">
+                    <h4>使用言語</h4>
+                    <p>HTML,CSS,Vue.js</p>
+                    <p>開発期間:3週間</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio_message3" style="align-items: center;">
+            <div class="portfolio_img"><img src="image/game_vue.jpg"></div>
+            <p>DBを使わないプログラミングの練習の為に制作しました。<br>
+            知識以前のプログラミング能力を向上させる為に、ロジックの検索は行わず<br>
+            自身でロジックや状態推移を考え開発しました。</p>
+        </div>
+    </div>
+    </div>
+    <footer><small>© 2018 my_profil</small></footer>
+</body>
 </html>
